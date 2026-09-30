@@ -1,23 +1,23 @@
-LogicLab Web
+# LogicLab Web
 
-Descripción
+## Descripción
 
-LogicLab Web es un proyecto académico orientado al aprendizaje de fundamentos de programación mediante una aplicación web educativa.
+**LogicLab Web** es un proyecto académico orientado al aprendizaje de fundamentos de programación mediante una aplicación web educativa.
 
-El proyecto busca presentar contenidos de programación de forma sencilla e interactiva, incluyendo explicaciones, ejemplos resueltos, ejercicios prácticos y evaluaciones.
+El proyecto busca presentar los contenidos de programación de una manera sencilla e interactiva, incluyendo explicaciones, ejemplos resueltos, ejercicios prácticos y evaluaciones.
 
-Objetivo
+## Objetivo
 
 Desarrollar una aplicación web educativa que permita a los estudiantes aprender y practicar conceptos básicos de programación mediante módulos, ejercicios y evaluaciones interactivas.
 
-Integrantes
+## Integrantes
 
 * Francis Bonifaz
 * Sebastian Navas
 * David Punina
 * Dixon Prado
 
-Contenidos del proyecto
+## Contenidos del proyecto
 
 El proyecto estará organizado en los siguientes módulos:
 
@@ -28,15 +28,17 @@ El proyecto estará organizado en los siguientes módulos:
 5. Ciclos
 6. Validación y pruebas
 
-Además, contará con:
+Además, la aplicación contará con:
 
 * Prácticas interactivas.
-* Evaluación de conocimientos.
+* Evaluaciones de conocimientos.
 * Sistema de resultados y retroalimentación.
 * Glosario de conceptos.
 * Información del equipo.
 
-Tecnologías
+## Tecnologías
+
+Las principales tecnologías utilizadas para el desarrollo del proyecto serán:
 
 * Java
 * Spring Boot
@@ -48,8 +50,9 @@ Tecnologías
 * GitHub
 * Visual Studio Code
 
-Estructura inicial
+## Estructura del proyecto
 
+```text
 LogicLab-Web/
 │
 ├── README.md
@@ -67,30 +70,57 @@ LogicLab-Web/
     │   └── resources/
     │
     └── test/
+```
 
-Arquitectura
+## Arquitectura
 
 El proyecto utilizará una arquitectura basada en capas:
 
-Usuario → Vista → Controlador → Servicio → Modelo/Datos
+```text
+Usuario
+   ↓
+Vista
+   ↓
+Controlador
+   ↓
+Servicio
+   ↓
+Modelo / Datos
+```
 
-Esta estructura permitirá separar la presentación, la lógica de procesamiento y los datos del sistema.
+Esta estructura permitirá separar la presentación, la lógica de procesamiento y los datos del sistema, facilitando la organización y el mantenimiento de la aplicación.
 
-Estado del proyecto
+## Estado del proyecto
 
-Actualmente el proyecto se encuentra en la primera etapa de diseño (Hito 1), donde se trabaja en:
+Actualmente, **LogicLab Web** se encuentra en la primera etapa de desarrollo correspondiente al **Hito 1**.
+
+En esta etapa se está trabajando en:
 
 * Definición del problema y usuario objetivo.
-* Requisitos y contenidos.
-* Arquitectura del sistema.
-* Mapa de navegación.
-* Bosquejos de las interfaces.
-* Organización del repositorio.
+* Identificación y priorización de requisitos.
+* Organización de los contenidos.
+* Diseño de la arquitectura del sistema.
+* Elaboración del mapa de navegación.
+* Diseño de los bosquejos de las interfaces.
+* Organización del repositorio de GitHub.
 
-Próximas etapas
+## Próximas etapas
 
-Posteriormente se desarrollará la aplicación web utilizando Java y Spring Boot, incorporando los módulos, prácticas, evaluación, validaciones y demás funcionalidades definidas para el proyecto.
+En las siguientes etapas se desarrollará progresivamente la aplicación web utilizando **Java y Spring Boot**.
 
-⸻
+Se incorporarán los diferentes módulos educativos, prácticas interactivas, evaluaciones, validaciones, sistema de resultados y retroalimentación, además de las demás funcionalidades definidas durante la etapa de diseño.
 
-Proyecto académico — LogicLab Web
+## Documentación
+
+La documentación del proyecto se encuentra en la carpeta [`docs/`](docs/), donde se almacenarán los documentos correspondientes a cada etapa del desarrollo.
+
+## Proyecto académico
+
+**LogicLab Web**
+Proyecto académico desarrollado por:
+
+* Francis Bonifaz
+* Sebastian Navas
+* David Punina
+* Dixon Prado
+
